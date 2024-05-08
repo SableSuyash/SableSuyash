@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Jersey+25&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Tauri&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="left"><h1>Suyash Portfolio.</h1></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="infoPhoto">
+            <div class="info">
+                <p><span id="info1">Hey my name is <span id="element"></span></span><br><span id="info2">and I am Learning Full-stack Web Development.</span></p>
+            </div>
+            <div class="photo">
+                <img src="./Suyash Photo.jpg" alt="Suyash Photo">
+            </div>
+        </section>
+        <section id="about">
+            <div id="aboutme">
+                <h2>About Me</h2>
+                <p>
+                    Hey my name Suyash.<br>I am Learning Full-stack Web Development form Itvedant.<br>
+                    I came from Non-IT background and I have interest in Frontend Development.
+                </p>
+            </div>
+            <div id="aboutSkills">
+                <h2>Skills:</h2>
+                <img class="skillsLogo HTML_Logo" src="./HTML Logo.svg" alt="HTML Logo">
+                <img class="skillsLogo CSS_Logo" src="./CSS Logo.svg" alt="CSS Logo">
+                <img class="skillsLogo Javascript_Logo" src="./JS Logo.svg" alt="Javascript Logo">
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project1">
+                <h3>Price-Card</h3>
+                <p>I have created this project<br>using HTML and CSS.</p>
+                <a href="C:\Users\SOPAN\OneDrive\Desktop\Full Stack Web Developer\Udemy\Price-Card\index.html" target="_blank">View Project</a>
+                <br>
+                <a href="C:\Users\SOPAN\OneDrive\Desktop\Full Stack Web Developer\Udemy\Price-Card\index.html" target="_blank">
+                    <img id="pimg1" src="./Price Card Photo.png" alt="Price Card Photo">
+                </a>
+            </div>
+            <div class="project2">
+                <h3>Login Page</h3>
+                <p>I create Itvedant Login Page.</p>
+                <a href="C:\Users\SOPAN\OneDrive\Desktop\IT Vedant\Web Assignment\Create login page\login page.html" target="_blank">View Project</a>
+                <br>
+                <a href="C:\Users\SOPAN\OneDrive\Desktop\IT Vedant\Web Assignment\Create login page\login page.html" target="_blank">
+                    <img id="pimg2" src="./Login Page Photo.png" alt="Login Page Photo">
+                </a>
+            </div>
+            <div class="project3">
+                <h3>Land of Boxes</h3>
+                <p>I create small e-commerce page.</p>
+                <a href="C:\Users\SOPAN\OneDrive\Desktop\IT Vedant\Web Assignment\Land of Boxes\Land of Boxes.html" target="_blank">View Project</a>
+                <br>
+                <a href="C:\Users\SOPAN\OneDrive\Desktop\IT Vedant\Web Assignment\Land of Boxes\Land of Boxes.html" target="_blank">
+                    <img id="pimg3" src="./Land of Boxes Photo.png" alt="Land of Boxes Photo">
+                </a>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contactMe">
+                <h2>Contact Me</h2>
+                <div id="contactImg">
+                    <a href="https://github.com/SableSuyash" target="_blank"><img class="contactImg Git_Hub" src="./Git Hub Logo.svg" alt="Git Hub Logo"></a>
+                    <a href="https://www.linkedin.com/in/suyashsable/" target="_blank"><img class="contactImg LinkDen" src="./Linkedin Logo.svg" alt="LinkDen Logo"></a>
+                    <a href="https://twitter.com/SuyashSable" target="_blank"><img class="contactImg X_Logo" src="./X Logo.svg" alt="X Logo"></a>
+                </div>
+            </div>
+            <form action="send-email.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button id="contactButton" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Suyash Sable. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Suyash', 'Sable'],
+          typeSpeed: 150,
+        });
+      </script>
+</body>
+</html>
