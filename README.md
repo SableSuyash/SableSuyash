@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @SableSuyash
 - 👀 I’m interested in web development
 - 🌱 I’m currently learning Full Stack web development with AWS
-- 💞️ I’m looking to collaborate on Front-end development
+- 💞️ I’m looking to collaborate on Front-end and back-end development
 - 📫 How to reach me Email me or else drop me a message
 
 <!---
