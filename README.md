@@ -1,10 +1,25 @@
-- 👋 Hi, I’m @SableSuyash
-- 👀 I’m interested in web development
-- 🌱 I’m currently learning Full Stack web development with AWS
-- 💞️ I’m looking to collaborate on Front-end and back-end development
-- 📫 How to reach me Email me or else drop me a message
+👋 Hi, I'm @SableSuyash
 
-<!---
-SableSuyash/SableSuyash is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🌍 Based in Mumbai, Maharashtra
+
+🚀 Cloud Engineer & DevOps Enthusiast
+
+🌐 Experienced in AWS Cloud Engineering, with hands-on expertise in EC2, S3, IAM, Lambda, VPC, and more
+
+☁️ Proficient in DevOps tools: Docker, Terraform, GitHub, Linux (Ubuntu & Amazon Linux), Bash scripting
+
+🛠️ Built and deployed scalable, secure AWS cloud solutions (3-tier web app, image analysis with Rekognition)
+
+📈 Improved system reliability, performance, and security with automation, monitoring, and best practices
+
+🌱 Currently pursuing AWS Solution Architect Associate certification
+
+🎓 Bachelor of Management Studies, Vaze Kelkar College (2022)
+
+💡 Looking to collaborate on:
+- Cloud projects (AWS, DevOps, automation)
+- End-to-end web development (Node.js, Nginx, infrastructure, security)
+
+📬 Reach me:
+- Email: sablesuyashsopan@gmail.com
+- LinkedIn: linkedin.com/in/suyashsable
